@@ -1,6 +1,6 @@
 # Comparison of JavaScript WYSIWYG editors
 
-*Comparison as of June 1st, 2015.*
+*Comparison as of August 28, 2015.*
 
 While building [iDoRecall](http://idorecall.com), we have evaluated every single editor listed [here](https://github.com/cheeaun/mooeditable/wiki/Comparison-of-Javascript-WYSIWYG-editors) and [here](http://designhuntr.com/jquery-text-editor-plugins/). While Markdown is great, it can't carry on much of the formatting that our audience is likely to encounter in the wild, so we looked for a WYSIWYG editor with the following features:
 
@@ -37,13 +37,18 @@ Results:
 1. [Froala WYSIWYG](https://froala.com/wysiwyg-editor) (jQuery) - can paste images, but [loses most of the rich formatting when pasting](https://github.com/froala/wysiwyg-editor/issues/552) before version 2
 - [woofmark](http://bevacqua.github.io/woofmark/) - Promising Markdown/WYSIWYG/HTML editor. [Can't paste images from the system clipboard](https://github.com/bevacqua/woofmark/issues/17).
 - [Squire](http://neilj.github.io/Squire/) - used at Fastmail. [Rich text formatting loss](https://github.com/neilj/Squire/issues/95), [demo can't paste images from Windows applications](https://github.com/neilj/Squire/issues/93), but can paste if they're copied from web pages.
+- the [Guardian's Scribe](http://guardian.github.io/scribe/) - 3,000+ GitHub stars. Built because [TinyMCE, CKEditor, Medium.js, Redactor, ZenPen, wysihtml5](https://www.theguardian.com/info/developer-blog/2014/mar/20/inside-the-guardians-cms-meet-scribe-an-extensible-rich-text-editor) (that is the entire list of solutions they've investigated) either didn't produce clean markup, or weren't extensible. [Can't paste images](https://github.com/guardian/scribe/issues/424).
+
+    > Scribe exposes a simple, browser-agnostic, low-level framework to manage and extend interactions with contentEditable.
+- [Etherpad](http://etherpad.org) - famous collaborative editor. Can't paste images of any kind in the demo.
+- [Etherpad Lite](https://github.com/ether/etherpad-lite) - a [rewrite of Etherpad](https://github.com/ether/etherpad-lite/wiki/FAQ) with ~5000 stars on GitHub. Can paste images from other tabs (i.e. via the URL), but [not from the system clipboard](https://github.com/ether/etherpad-lite/issues/2227#issuecomment-135898136) into [the demo](https://beta.etherpad.org/). There is a [plugin for pasting and uploading images](https://github.com/JohnMcLear/ep_copy_paste_images) but it's unstable.
+- [Raptor](http://www.raptor-editor.com/) - [can't paste images](https://github.com/PANmedia/raptor-editor/issues/56)
 - [Dante](https://github.com/michelson/Dante) (jQuery, Underscore) - [image pasting is supposed to work, but doesn't](https://github.com/michelson/Dante/issues/33)
 - [Wysihtml](http://wysihtml.com/) (vanilla) - actively-maintained fork of the Xing project; [loses rich text formatting when pasting](https://github.com/Voog/wysihtml/issues/180), [can't paste standalone images from clipboard](https://github.com/Voog/wysihtml/issues/163)
 - [MediumEditor](https://yabwe.github.io/medium-editor/) (vanilla) - [GitHub](https://github.com/yabwe/medium-editor) - [can't paste images](https://github.com/yabwe/medium-editor/issues/657) and loses formatting when pasting rich text
 - [Quill](http://quilljs.com/) - collaborative editor; [can't paste images](https://github.com/quilljs/quill/issues/137)
-- [Raptor](http://www.raptor-editor.com/) - [can't paste images](https://github.com/PANmedia/raptor-editor/issues/56)
 - [Minislate](https://github.com/olivier-m/minislate/) (vanilla) - [can't paste images](https://github.com/olivier-m/minislate/issues/7)
-- [Medium.js](https://github.com/jakiestfu/Medium.js/) (vanilla), [can't paste images from clipboard](https://github.com/jakiestfu/Medium.js/issues/102)
+- [Medium.js](https://github.com/jakiestfu/Medium.js/) (vanilla), [can't paste images from clipboard](https://github.com/jakiestfu/Medium.js/issues/102#issuecomment-107349252)
 - [ZenPen](http://zenpen.io) - [can't paste images from clipboard](https://github.com/tholman/zenpen/issues/119)
 - [Pen](https://github.com/sofish/pen) (vanilla) - [can't paste images from clipboard](https://github.com/sofish/pen/issues/151)
 - [Hallo.js](http://hallojs.org/) - minimalistic jQueryUI plugin with floating toolbar; [can't paste images](https://github.com/bergie/hallo/issues/234)
@@ -53,6 +58,7 @@ Results:
 - [KindEditor](https://github.com/kindsoft/kindeditor/issues/184) - Korean project, can't paste images
 - [wysiwyg.js](http://wysiwygjs.github.io/) (vanilla or jQuery, <12KB) - [can't paste images](https://github.com/wysiwygjs/wysiwyg.js/issues/33)
 - [dijit.Editor](http://dojotoolkit.org/reference-guide/1.10/dijit/Editor.html) - part of the Dojo toolkit; nothing about images mentioned on the page
+- [Content Kit Editor](https://github.com/bustlelabs/content-kit-editor) - comes up with a new platform-agnostic serialization forma, [mobiledoc](https://github.com/bustlelabs/content-kit-editor/blob/master/MOBILEDOC.md). [Can't paste images](https://github.com/bustlelabs/content-kit-editor/issues/101).
 - [Redactor](http://imperavi.com/redactor/) (jQuery) - commercial license starts at $99; not on GitHub; can't paste images
 
 
