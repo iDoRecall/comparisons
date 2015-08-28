@@ -5,7 +5,7 @@
 While building [iDoRecall](http://idorecall.com), we have evaluated every single editor listed [here](https://github.com/cheeaun/mooeditable/wiki/Comparison-of-Javascript-WYSIWYG-editors) and [here](http://designhuntr.com/jquery-text-editor-plugins/). While Markdown is great, it can't carry on much of the formatting that our audience is likely to encounter in the wild, so we looked for a WYSIWYG editor with the following features:
 
 * correct pasting of minimally rich text from a variety of online sources (Google Docs, StackOverflow)
-* paste images from clipboard directly, the way GitHub, Slack or Google Docs work
+* paste images from clipboard directly, the way Slack, Imgur, GitHub, Google Docs and StackOverflow work
 * usable on modern browsers and mobile devices; IE < 9 support not important
 * relatively lightweight
 * preferrably open source licensed, preferrably MIT
@@ -62,7 +62,7 @@ Results:
 - [CKEditor](http://ckeditor.com/) (next generation of FCKeditor)
 - [Aloha Editor](http://aloha-editor.com/) - [can't paste images](https://github.com/alohaeditor/Aloha-Editor/issues/1408). GPLv2 or commercial starting at 200 EUR
 - [Mercury Editor](http://jejacks0n.github.com/mercury/) (jQuery, CoffeeScript, Rails) - [no updates since August 2014](https://github.com/jejacks0n/mercury/issues/478), [can't paste images](https://github.com/jejacks0n/mercury/issues/480)
-- [WebODF](http://webodf.org/) - Powerful WYSIWYG editor that can import ODF files. Can insert images via file upload, but not paste them. AGPL license (free to use in open source projects), with commercial offering from KO GMBH.
+- [WebODF](http://webodf.org/) - Powerful WYSIWYG editor that can import ODF files. Can insert images via file upload, but [can't paste images](https://github.com/kogmbh/WebODF/issues/916). AGPL license (free to use in open source projects), with commercial offering from KO GMBH.
 
 
 ## Couldn't evaluate, or don't quite do WYSIWYG
