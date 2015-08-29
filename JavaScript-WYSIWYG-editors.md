@@ -19,7 +19,7 @@ For an alternative comparison table (no longer maintained by us), check out [Soc
 ### Can paste images and rich text
 
 1. [Summernote](http://summernote.org) (jQuery+Bootstrap) - about 400/400 open/closed [GitHub issues](https://github.com/summernote/summernote/issues). ~84kB minified.
-2. [AlloyEditor](http://alloyeditor.com/demo/) - based on CKEditor, with a modern UI built with React. [800Kb minified, 180kB gzipped](https://github.com/liferay/alloy-editor/issues/229) is smaller than CKEditor out of the box. [No mobile support](https://github.com/liferay/alloy-editor/issues/226).
+2. [AlloyEditor](http://alloyeditor.com/demo/) - based on CKEditor, with a modern UI built with React. At [598Kb minified, 167kB gzipped](https://github.com/liferay/alloy-editor/issues/22#issuecomment-135933027), it's smaller than CKEditor out of the box. [No mobile support](https://github.com/liferay/alloy-editor/issues/226).
 3. [Hackpad](https://github.com/dropbox/hackpad) - real-time collaborative editor, quite popular with the open source community
 
 ## Can't paste images or rich text
