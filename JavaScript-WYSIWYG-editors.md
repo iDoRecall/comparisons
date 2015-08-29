@@ -2,7 +2,7 @@
 
 *Comparison as of August 28, 2015.*
 
-While building [iDoRecall](http://idorecall.com), we looked for WYSIWYG editor to enable our users to create and paste rich text recalls. While Markdown is great, it can't carry on much of the formatting that our audience is likely to encounter in the wild, so we looked for a WYSIWYG editor with the following features:
+While building [iDoRecall](http://idorecall.com), we looked for a WYSIWYG editor to enable our users to create and paste rich text recalls. While Markdown is great, it can't carry on much of the formatting that our audience is likely to encounter in the wild, so we looked for a WYSIWYG editor with the following features:
 
 * correct pasting of minimally rich text from a variety of online sources (Google Docs, StackOverflow)
 * paste images from clipboard directly, the way Slack, Imgur, GitHub, Google Docs and StackOverflow work
