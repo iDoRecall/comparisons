@@ -12,13 +12,14 @@ While building [iDoRecall](http://idorecall.com), we looked for a WYSIWYG editor
 
 ## Candidates
 
-We have evaluated every single editor listed [here](https://github.com/cheeaun/mooeditable/wiki/Javascript-WYSIWYG-editors) and [here](http://designhuntr.com/jquery-text-editor-plugins/). Surprisingly, out of ~45 editors tested, only one (!) satisfies these requirements.
+We have evaluated every single editor listed [here](https://github.com/cheeaun/mooeditable/wiki/Javascript-WYSIWYG-editors) and [here](http://designhuntr.com/jquery-text-editor-plugins/). Surprisingly, out of ~45 editors tested, only two (!) satisfy these requirements.
 
 For an alternative comparison table (no longer maintained by us), check out [SocialCompare](http://socialcompare.com/en/comparison/javascript-online-rich-text-editors).
 
 ### Can paste images and rich text
 
-1. [Summernote](http://summernote.org) (jQuery+Bootstrap) - about 400/400 open/closed [GitHub issues](https://github.com/summernote/summernote/issues). ~84kB minified.
+1. [Trumbowyg](http://alex-d.github.io/Trumbowyg/) - 20KB + jQuery; can [paste images via a plugin] (https://github.com/Alex-D/Trumbowyg/issues/135)
+1. [Summernote](http://summernote.org) (jQuery+Bootstrap) - about 460/830 open/closed [GitHub issues](https://github.com/summernote/summernote/issues). ~84kB minified.
 2. [AlloyEditor](http://alloyeditor.com/demo/) - based on CKEditor, with a modern UI built with React. At [598Kb minified, 167kB gzipped](https://github.com/liferay/alloy-editor/issues/22#issuecomment-135933027), it's smaller than CKEditor out of the box. [No mobile support](https://github.com/liferay/alloy-editor/issues/226).
 3. [Hackpad](https://github.com/dropbox/hackpad) - real-time collaborative editor, quite popular with the open source community
 
@@ -37,7 +38,6 @@ Rich formatting is often tricky to paste. Two samples were used:
 Results:
 
 1. [Froala WYSIWYG](https://froala.com/wysiwyg-editor) (jQuery) - can paste images from the clipboard, but [loses most of the rich formatting when pasting](https://github.com/froala/wysiwyg-editor/issues/552) before version 2
-- [Trumbowyg](http://alex-d.github.io/Trumbowyg/) (jQuery + 15KB minified) - can paste rich text with images from other web pages, but [not images alone](https://github.com/Alex-D/Trumbowyg/issues/135)
 - [woofmark](http://bevacqua.github.io/woofmark/) - Promising Markdown/WYSIWYG/HTML editor. [Can't paste images from the system clipboard](https://github.com/bevacqua/woofmark/issues/17).
 - [Squire](http://neilj.github.io/Squire/) - used at Fastmail. [Rich text formatting loss](https://github.com/neilj/Squire/issues/95), [demo can't paste images from the system clipboard](https://github.com/neilj/Squire/issues/93) (only if they're copied from other web pages).
 - the [Guardian's Scribe](http://guardian.github.io/scribe/) - 3,000+ GitHub stars. Built because [TinyMCE, CKEditor, Medium.js, Redactor, ZenPen, wysihtml5](https://www.theguardian.com/info/developer-blog/2014/mar/20/inside-the-guardians-cms-meet-scribe-an-extensible-rich-text-editor) (that is the entire list of solutions they've investigated) either didn't produce clean markup, or weren't extensible. [Can't paste images](https://github.com/guardian/scribe/issues/424).
