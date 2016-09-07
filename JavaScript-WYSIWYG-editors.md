@@ -1,6 +1,6 @@
 # Comparison of JavaScript WYSIWYG editors
 
-*Comparison as of August 28, 2015.*
+*Comparison as of September 6, 2016.*
 
 While building [iDoRecall](http://idorecall.com), we looked for a WYSIWYG editor to enable our users to create and paste rich text recalls. While Markdown is great, it can't carry on much of the formatting that our audience is likely to encounter in the wild, so we looked for a WYSIWYG editor with the following features:
 
@@ -54,6 +54,7 @@ Results:
 - [Medium.js](https://github.com/jakiestfu/Medium.js/) (vanilla), [can't paste images from the clipboard](https://github.com/jakiestfu/Medium.js/issues/102#issuecomment-107349252)
 - [ZenPen](http://zenpen.io) - [can't paste images from clipboard](https://github.com/tholman/zenpen/issues/119)
 - [Pen](https://github.com/sofish/pen) (vanilla) - [can't paste images from the clipboard](https://github.com/sofish/pen/issues/151)
+- [textAngular](http://textangular.com/) (Angular), [can't paste images since 2014](https://github.com/fraywing/textAngular/issues/177), tightly coupled with AngularJS, which is a [bad idea](https://ponyfoo.com/articles/why-i-write-plain-javascript-modules)
 - [Hallo.js](http://hallojs.org/) - minimalistic jQueryUI plugin with floating toolbar; [can't paste images](https://github.com/bergie/hallo/issues/234)
 - [SCEditor](http://www.sceditor.com/) - [can't paste images](https://github.com/samclarke/SCEditor/issues/386)
 - [bootstrap3-wysiwyg](http://bootstrap-wysiwyg.github.io/bootstrap3-wysiwyg/) - [can't paste images from the clipboard](https://github.com/bootstrap-wysiwyg/bootstrap3-wysiwyg/issues/143)
