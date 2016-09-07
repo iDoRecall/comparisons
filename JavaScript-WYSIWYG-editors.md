@@ -9,19 +9,20 @@ While building [iDoRecall](http://idorecall.com), we looked for a WYSIWYG editor
 * usable on modern browsers and mobile devices; IE < 9 support not important
 * relatively lightweight
 * preferrably open source licensed, preferrably MIT
+* (relatively) actively maintained
 
 ## Candidates
 
-We have evaluated every single editor listed [here](https://github.com/cheeaun/mooeditable/wiki/Javascript-WYSIWYG-editors) and [here](http://designhuntr.com/jquery-text-editor-plugins/). Surprisingly, out of ~45 editors tested, only two (!) satisfy these requirements.
+We have evaluated every single editor listed [here](https://github.com/cheeaun/mooeditable/wiki/Javascript-WYSIWYG-editors) and [here](http://designhuntr.com/jquery-text-editor-plugins/). Surprisingly, out of ~60 editors tested, only one (!) satisfies these requirements.
 
 For an alternative comparison table (no longer maintained by us), check out [SocialCompare](http://socialcompare.com/en/comparison/javascript-online-rich-text-editors).
 
 ### Can paste images and rich text
 
-1. [Trumbowyg](http://alex-d.github.io/Trumbowyg/) - 20KB + jQuery; can [paste images via a plugin] (https://github.com/Alex-D/Trumbowyg/issues/135)
-1. [Summernote](http://summernote.org) (jQuery+Bootstrap) - about 460/830 open/closed [GitHub issues](https://github.com/summernote/summernote/issues). ~84kB minified.
-2. [AlloyEditor](http://alloyeditor.com/demo/) - based on CKEditor, with a modern UI built with React. At [598Kb minified, 167kB gzipped](https://github.com/liferay/alloy-editor/issues/22#issuecomment-135933027), it's smaller than CKEditor out of the box. [No mobile support](https://github.com/liferay/alloy-editor/issues/226).
-3. [Hackpad](https://github.com/dropbox/hackpad) - real-time collaborative editor, quite popular with the open source community
+1. **WINNER** - [Trumbowyg](http://alex-d.github.io/Trumbowyg/) - 20KB + jQuery; can [paste images via a plugin] (https://github.com/Alex-D/Trumbowyg/issues/135)
+2. [Summernote](http://summernote.org) (jQuery+Bootstrap) - about 618/860 open/closed [GitHub issues](https://github.com/summernote/summernote/issues). ~84kB minified.
+3. [AlloyEditor](http://alloyeditor.com/demo/) - based on CKEditor, with a modern UI built with React. At [598Kb minified, 167kB gzipped](https://github.com/liferay/alloy-editor/issues/22#issuecomment-135933027), it's smaller than CKEditor out of the box. [No mobile support](https://github.com/liferay/alloy-editor/issues/226).
+4. [Hackpad](https://github.com/dropbox/hackpad) - real-time collaborative editor, eagerly expected by the open source community, but apparently [abandoned](https://github.com/dropbox/hackpad/issues/51) after Dropbox acquired the company
 
 ## Can't paste images or rich text
 
